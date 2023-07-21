@@ -27,3 +27,19 @@ console.log(cliente02[12]);
 console.log(cliente02["hola mundo"]);
 console.log(cliente02["45 domicilio"]);
 console.log(cliente02["hola " + "mundo"]);
+
+//Agregar y actualizar propiedades
+cliente02.edad ++;
+console.log(cliente02.edad);
+
+//Agregando propiedad 
+cliente02.sobrenombre = 'Juanito'
+console.log(cliente02.sobrenombre);
+
+//Objeto vacío
+const opinion = {}
+
+opinion.sebas = 'No me gustó'
+opinion.luis = 'excelente'
+
+console.log(opinion);
