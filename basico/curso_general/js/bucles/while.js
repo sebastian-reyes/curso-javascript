@@ -19,3 +19,13 @@ while(numeroSecreto !== numMaquina){
 }
 console.log(`${numeroSecreto} vs ${numMaquina}`);
 console.log('Lo encontramos');
+
+/*
+Break - rompe el ciclo:
+
+while(true){
+    if(numeroSecreto == numMaquina) break;
+    console.log(`${numeroSecreto} vs ${numMaquina}`);
+    numMaquina = Math.floor(Math.random()*10);
+}
+*/
